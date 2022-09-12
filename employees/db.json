@@ -3,8 +3,45 @@
     {
       "id": "stephanie-schwartz",
       "name": "Stephanie Schwartz",
-      "Role": "Community and Recruitment Manager (CRM)"
+      "Role": "Community and Recruitment Manager (CRM)",
+      "contact": "stephanie.s@xsquaredlabs.com",
+      "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/stephanie-s.jfif"
+    },
+     {
+      "id": "jeremy-zim",
+      "name": "Jeremy Zimmerman",
+      "Role": "Lead Programmer",
+      "contact": "jeremy.z@xsquaredlabs.com",
+      "Status": "Active",
+      "image": "https://xsquaredlabs.com/employees/employee-photos/jeremy-z.jfif"
+    },
+    
+     {
+      "id": "randal-hol",
+      "name": "Randal Holland",
+      "Role": "Lead Fabricator",
+      "contact": "randal.h@xsquaredlabs.com",
+      "Status": "Active",
+      "image": "https://xsquaredlabs.com/employees/employee-photos/randal-h.jfif"
+    },
+    
+     {
+      "id": "Dave-Newman",
+      "name": "Dave Newman",
+      "Role": "Lead Designer",
+      "contact": "Dave.n@xsquaredlabs.com",
+      "Status": "Active",
+      "image": "https://xsquaredlabs.com/employees/employee-photos/dave-n.jfif"
+    },
+    
+     {
+      "id": "short-cirkuitz",
+      "name": "Short Cirkuitz",
+      "Role": "Lead Prototype-Tester, East Coast Region",
+      "contact": "shortcirkuitz@xsquaredlabs.com",
+      "Status": "Active",
+      "image": "https://xsquaredlabs.com/employees/employee-photos/short-cirkuitz.jpg"
     }
   ]
 }
