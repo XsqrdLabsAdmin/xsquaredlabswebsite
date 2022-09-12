@@ -1,7 +1,7 @@
 {
   "employees": [
     {
-      "id": "stephanie-schwartz",
+      "id": "steph-sch",
       "name": "Stephanie Schwartz",
       "Role": "Community and Recruitment Manager (CRM)",
       "contact": "stephanie.s@xsquaredlabs.com",
@@ -27,7 +27,7 @@
     },
     
      {
-      "id": "dave-newman",
+      "id": "dave-new",
       "name": "Dave Newman",
       "Role": "Lead Designer",
       "contact": "dave.n@xsquaredlabs.com",
@@ -36,7 +36,7 @@
     },
     
      {
-      "id": "short-cirkuitz",
+      "id": "short-cirk",
       "name": "Short Cirkuitz",
       "Role": "Lead Prototype-Tester, East Coast Region",
       "contact": "shortcirkuitz@xsquaredlabs.com",
