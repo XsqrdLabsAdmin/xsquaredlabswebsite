@@ -136,9 +136,14 @@ header.active{
 }
 
 .nav-link{
+  color: white;
   font-size: 1.7rem;
   padding: 0;
   margin: auto 0;
+}
+
+.nav-link:hover{
+  color: black;
 }
 
 .nav-list-larger{
