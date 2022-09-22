@@ -1,0 +1,263 @@
+/*Global*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: .1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2rem);
+}
+
+
+
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 2)), url("https://xsquaredlabs.com/contact-us/g5303b5fa85c625ee1cfb1e464510e55b1779b2f8b621fcf236ab05666688d62ce4b04243f1179a3d56d9bd69c248a6231332ec8783361d572473cbff24efaaf3_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 588px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.8rem;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  width: 770px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 105.5px auto 0;
+}
+
+.paragraph {
+
+margin: 200px auto 0;
+
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  font-size: 2.25rem;
+  margin: 90px auto 0;
+  padding: -10;
+}
+
+.u-section-1 .u-form-1 {
+  height: 317px;
+  width: 570px;
+  margin: -28px auto 60px;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+}
+
+.nav-list{
+  margin-top: 0;
+}
+
+.nav-list-mobile{
+  display: flex;
+}
+
+.nav-item{
+  width: 4.8rem;
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item-hidden{
+  display: none;
+}
+
+.mobile-menu{
+  position: relative;
+  z-index: 1500;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.line{
+  position: absolute;
+  width: 1.7rem;
+  height: 1px;
+  background-color: white;
+  transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+}
+
+.line-top{
+  margin-top: 15px;
+}
+
+.line-bottom{
+  margin-top: -.4rem;
+}
+
+.active .line-top{
+  margin-top: 0;
+  transform: rotate(45deg);
+  transition: transform .31926s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+}
+
+.active .line-bottom{
+  margin-top: 0;
+  transform: rotate(-45deg);
+  transition: transform .31926s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+}
+
+header.active{
+  height: 100%;
+  background-color: black transparent;
+}
+
+.nav-link-xsqrd{
+  width: 1.8rem;
+  height: 4.8rem;
+  position: relative;
+  z-index: 1500;
+}
+
+.nav{
+  position: relative;
+}
+
+.nav-link{
+  font-size: 1.7rem;
+  padding: 0;
+  margin: auto 0;
+}
+
+.nav-list-larger{
+  position: fixed;
+  top: o;
+  left: 0;
+  width: 0;
+  height: 0;
+  display: block;
+  padding: 10.5rem 5rem;
+  z-index: 1000;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 3.3s;
+}
+
+.active .nav-list-larger{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-list-larger .nav-item{
+  width: 100%;
+  justify-content: flex-start;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list-larger .nav-item:nth-child(9){
+  border-bottom: none;
+}
+
+.active .nav-list-larger .nav-item{
+  animation: fadeIn ease-in;
+}
+
+@keyframes fadeIn{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 754px;
+  }
+}
+
+@media (max-width: 991px) {
+  header{
+    height: 4.8rem;
+    transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1);
+                height: .56s cubic-bezier(0.32, 0.08, 0.24, 1);;
+}
+
+header .container{
+    padding: 0;
+}
+  .u-section-1 .u-sheet-1 {
+    min-height: 578px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.4375rem;
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  header{
+    height: 4.8rem;
+    transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1);
+                height: .56s cubic-bezier(0.32, 0.08, 0.24, 1);;
+}
+
+header .container{
+    padding: 0;
+}
+  .u-section-1 .u-sheet-1 {
+    min-height: 434px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    width: 540px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  header{
+    height: 4.8rem;
+    transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1);
+                height: .56s cubic-bezier(0.32, 0.08, 0.24, 1);;
+}
+
+header .container{
+    padding: 0;
+}
+  .u-section-1 .u-sheet-1 {
+    min-height: 522px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.125rem;
+    width: 340px;
+    margin-top: 30px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+    margin-bottom: 10px;
+  }
+}
