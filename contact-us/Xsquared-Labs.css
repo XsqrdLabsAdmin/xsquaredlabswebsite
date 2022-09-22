@@ -16,7 +16,34 @@ header{
   backdrop-filter: blur(2rem);
 }
 
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
 
+.nav-list-mobile{
+  display: none;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  padding: 0 1rem;
+  transition: opacity .5s;
+}
+
+.nav-link:hover{
+  opacity: .7;
+}
+
+.nav-link-xsqrd{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("https://xsquaredlabs.com/logo.svg") center no-repeat;
+}
 
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 2)), url("https://xsquaredlabs.com/contact-us/g5303b5fa85c625ee1cfb1e464510e55b1779b2f8b621fcf236ab05666688d62ce4b04243f1179a3d56d9bd69c248a6231332ec8783361d572473cbff24efaaf3_1280.jpg");
