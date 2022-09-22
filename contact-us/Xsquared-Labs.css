@@ -30,12 +30,13 @@ header{
 
 .nav-link{
   font-size: 1.4rem;
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 0 1rem;
   transition: opacity .5s;
 }
 
 .nav-link:hover{
+  color: black;
   opacity: .7;
 }
 
