@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Xsquared Labs, Technology, Prototyping, Weapons, Armor">
     <meta name="description" content="Visit Xsquared Labs and aid in bringing the advancements of tomorrow in to the present.">
-    <title>Xsquared Labs</title>
+    <title>Xsquared Labs | CONTACT</title>
     <link rel="icon" href="https://xsquaredlabs.com/xsquaredlogo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <meta property="og:title" content="Xsquared Labs">
@@ -21,22 +21,23 @@
 <body>
 <div class="container">
    <form onsubmit="sendEmail(); reset(); return false;">
-        <h3>Become A Recruit Today By Filling Out The Form!</h3>
+        <h3>Become A Recruit Today!</h3>
         <p>(Alternatively you can call (470) 795-2274) and say 'support' when prompted)</p>
         <input type="text" id="name" placeholder="Name" required>
         <input type="text" id="email" placeholder="Email Address" required>
         <input type="text" id="phone" placeholder="Phone Number" required>
-        <textarea id="message" rows="4" placeholder="Skillset(s)?" required></textarea>
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
             <button type="submit">Submit</button>
         </form>
       </div>
+      <!--change username to form-submit@xsquaredlabs.com and password to F80C373F22919F5500C502D1DB8D8C2A352C for live website versions-->
       <script src="https://smtpjs.com/v3/smtp.js"></script>
       <script>
         function sendEmail(){
             Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "form-submit@xsquaredlabs.com",
-    Password : "F80C373F22919F5500C502D1DB8D8C2A352C",
+    Username : "xsqrdrecruitsubmissions@gmail.com",
+    Password : "848312084B9E1EA3A61D4ED5196C04C7B697",
     To : 'xsqrdhunter01@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New Recruit Submission ",
