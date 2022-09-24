@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
+ minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Xsquared Labs, Technology, Prototyping, Weapons, Armor">
+    <meta name="description" content="Visit Xsquared Labs and aid in bringing the advancements of tomorrow in to the present.">
+    <title>Xsquared Labs | CONTACT</title>
+    <link rel="icon" href="https://xsquaredlabs.com/xsquaredlogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:title" content="Xsquared Labs">
+    <meta property="og:description" content="Building A Safer, More Advanced Tomorrow">
+    <meta property="og:url" content="https://xsquaredlabs.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+</head>
+<body>
+<div class="container">
+   <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>Become A Recruit Today!</h3>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="email" placeholder="Email Address" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function sendEmail(){
+            Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "xsqrdrecruitsubmissions@gmail.com",
+    Password : "848312084B9E1EA3A61D4ED5196C04C7B697",
+    To : 'xsqrdhunter01@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Recruit Submission ",
+    Body : "Name: "+document.getElementById("name").value
+            +"<br> Email: "+document.getElementById("email").value
+            +"<br> Phone Number: "+document.getElementById("phone").value
+            +"<br> Message: "+document.getElementById("message").value
+}).then(
+  message => alert("Message has been uploaded to our servers! Expect an answer soon.")
+);  
+        }
+      </script>
+    </body>
+</html>
