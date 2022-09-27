@@ -32,6 +32,10 @@ h3{
     margin-bottom: 20px;
 }
 
+a{
+    color: white;
+}
+
 form input, form textarea{
     border: 0;
     margin: 10px;
