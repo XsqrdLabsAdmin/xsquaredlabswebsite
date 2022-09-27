@@ -20,33 +20,6 @@
 </head>
 <body>
 <div class="container">
-   <form onsubmit="sendEmail(); reset(); return false;">
-        <h3>Contact Us</h3>
-        <input type="text" id="name" placeholder="Name" required>
-        <input type="text" id="email" placeholder="Email Address" required>
-        <input type="text" id="phone" placeholder="Phone Number" required>
-        <textarea id="message" rows="4" placeholder="Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-      </div>
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
-      <script>
-        function sendEmail(){
-            Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "xsqrdrecruitsubmissions@gmail.com",
-    Password : "848312084B9E1EA3A61D4ED5196C04C7B697",
-    To : 'xsqrdhunter01@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Recruit Submission ",
-    Body : "Name: "+document.getElementById("name").value
-            +"<br> Email: "+document.getElementById("email").value
-            +"<br> Phone Number: "+document.getElementById("phone").value
-            +"<br> Message: "+document.getElementById("message").value
-}).then(
-  message => alert("Message has been uploaded to our servers! Expect an answer soon.")
-);  
-        }
-      </script>
+        <h3>To contact us you may either E-mail 'contact@xsquaredlabs.com or call (470) 795-2274 and say 'support' when prompted</h3>
     </body>
 </html>
