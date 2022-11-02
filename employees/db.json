@@ -1,7 +1,8 @@
 {
   "xsquared-employees": [
     {
-      "id": "steph-sch",
+      "id": "steph-s",
+      "number": "8052",
       "name": "Stephanie Schwartz",
       "Role": "Community and Recruitment Manager (CRM)",
       "contact": "stephanie.s@xsquaredlabs.com",
@@ -9,8 +10,8 @@
       "image": "https://xsquaredlabs.com/employees/employee-photos/stephanie-s.jfif"
     },
      {
-      "id": "jeremy-zim",
-      "name": "Jeremy Zimmerman",
+      "id": "jeremy-z",
+      "name": "Jeremy Zahorsky",
       "Role": "Lead Programmer",
       "contact": "jeremy.z@xsquaredlabs.com",
       "Status": "Active",
@@ -18,7 +19,7 @@
     },
     
      {
-      "id": "randal-hol",
+      "id": "randal-h",
       "name": "Randal Holland",
       "Role": "Lead Fabricator",
       "contact": "randal.h@xsquaredlabs.com",
@@ -27,7 +28,7 @@
     },
     
      {
-      "id": "dave-new",
+      "id": "dave-n",
       "name": "Dave Newman",
       "Role": "Lead Designer",
       "contact": "dave.n@xsquaredlabs.com",
@@ -36,7 +37,8 @@
     },
     
      {
-      "id": "short-cirk",
+      "id": "short-c",
+       "number": "1376",
       "name": "Short Cirkuitz",
       "Role": "Lead Prototype-Tester, East Coast Region",
       "contact": "shortcirkuitz@xsquaredlabs.com",
