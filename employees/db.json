@@ -4,15 +4,16 @@
       "id": "steph-s",
       "number": "8052",
       "name": "Stephanie Schwartz",
-      "Role": "Community and Recruitment Manager (CRM)",
+      "role": "Community and Recruitment Manager (CRM)",
       "contact": "stephanie.s@xsquaredlabs.com",
       "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/stephanie-s.jfif"
     },
      {
       "id": "jeremy-z",
+      "number": "7815",
       "name": "Jeremy Zahorsky",
-      "Role": "Lead Programmer",
+      "role": "Lead Programmer",
       "contact": "jeremy.z@xsquaredlabs.com",
       "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/jeremy-z.jfif"
@@ -20,8 +21,9 @@
     
      {
       "id": "randal-h",
+      "number": "1113"
       "name": "Randal Holland",
-      "Role": "Lead Fabricator",
+      "role": "Lead Fabricator",
       "contact": "randal.h@xsquaredlabs.com",
       "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/randal-h.jfif"
@@ -29,8 +31,9 @@
     
      {
       "id": "dave-n",
+      "number": "2689"
       "name": "Dave Newman",
-      "Role": "Lead Designer",
+      "role": "Lead Designer",
       "contact": "dave.n@xsquaredlabs.com",
       "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/dave-n.jfif"
@@ -38,12 +41,21 @@
     
      {
       "id": "short-c",
-       "number": "1376",
+      "number": "1376",
       "name": "Short Cirkuitz",
-      "Role": "Lead Prototype-Tester, East Coast Region",
+      "role": "Lead Prototype-Tester, East Coast Region",
       "contact": "shortcirkuitz@xsquaredlabs.com",
       "Status": "Active",
       "image": "https://xsquaredlabs.com/employees/employee-photos/short-cirkuitz.jfif"
+    },
+    {
+      "id": "brent-d"
+      "number": "0925"
+      "name": "Brenton Derby"
+      "role": "Lead Handler"
+      "contact": "brent.d@xsquaredlabs.com"
+      "status": "Active"
+      "image": "Not available in an effort to protect this particular member of staff"
     }
   ]
 }
