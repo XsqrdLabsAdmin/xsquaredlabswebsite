@@ -1121,6 +1121,17 @@
     <meta name="description" content="Visit Xsquared Labs and aid in bringing the advancements of tomorrow in to the present."> 
     <title>Xsquared Labs</title>
     <link rel="icon" href="https://xsquaredlabs.com/images/xsqrdlogo.png" type="image/x-icon" />
+    <SCRIPT language=JavaScript>
+										   
+	var message = "This action is disabled";
+        
+        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+        
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+        
+        document.onmousedown = rtclickcheck;
+        
+        </SCRIPT>
     <meta property="og:title" content="Xsquared Labs">
     <meta property="og:description" content="Building A Safer, More Advanced Tomorrow">
     <meta property="og:url" content="https://xsquaredlabs.com">
