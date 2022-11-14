@@ -430,7 +430,13 @@ there.
 
 @media (min-width: 280px) {
 
-  #output, #input-line, #prompt{
+  #output{
+    
+    font-size:4.8pt;
+    inline-size: 345px;
+  }
+  
+  #input-line, #prompt{
   
     font-size: 4.8pt;
   }
