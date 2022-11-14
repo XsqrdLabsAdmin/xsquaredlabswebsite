@@ -431,9 +431,10 @@ there.
 @media (min-width: 280px) {
 
   #output{
-    
-    font-size:4.8pt;
+    clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size:4.8pt;
   }
   
   #input-line, #prompt{
@@ -447,9 +448,10 @@ there.
 @media (min-width: 300px) {
 
   #output{
-    
-    font-size: 7pt;
+    clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size: 7pt;
   }
   
   
@@ -463,9 +465,10 @@ there.
 @media (min-width: 360px) {
 
     #output{
-    
-    font-size:5.8pt;
+    clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size:5.8pt;
   }
   
   
@@ -480,9 +483,10 @@ there.
 @media (min-width: 375px) {
 
     #output{
-    
+        clear: both;
+    width: 100%;
+    inline-size: 35px;
     font-size:5.8pt;
-    inline-size: 5px;
   }
   
   
@@ -497,9 +501,10 @@ there.
 @media (min-width: 400px) {
 
   #output{
-    
-    font-size:7.4pt;
+        clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size:7.4pt;
   }
   
   
@@ -514,9 +519,10 @@ there.
 
  
     #output{
-    
-    font-size:7.4pt;
+        clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size:7.4pt;
   }
   
   #input-line, #prompt{
@@ -530,8 +536,10 @@ there.
 
     #output{
     
-    font-size: 9.8pt;
+        clear: both;
+    width: 100%;
     inline-size: 35px;
+    font-size: 9.8pt;
   }  
   
   #input-line, #prompt{
