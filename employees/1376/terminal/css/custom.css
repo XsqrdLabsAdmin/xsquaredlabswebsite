@@ -18,7 +18,6 @@
         font-size: 13pt;
          font-family: courier;
         color: white;
-       background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-size: cover;
@@ -55,11 +54,12 @@
         font: inherit;
         border: none;
         color: inherit;
+        inline-size: 350px;
     }
     #output {
         clear: both;
         width: 100%;
-        inline-size: 3000px;
+        inline-size: 350px;
     }
     #prompt {
         white-space: nowrap;
