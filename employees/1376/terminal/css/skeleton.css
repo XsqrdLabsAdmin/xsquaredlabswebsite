@@ -433,7 +433,7 @@ there.
   #output{
     
     font-size:4.8pt;
-    inline-size: 345px;
+    inline-size: 35px;
   }
   
   #input-line, #prompt{
@@ -446,7 +446,14 @@ there.
 
 @media (min-width: 300px) {
 
-#output, #input-line, #prompt{
+  #output{
+    
+    font-size: 7pt;
+    inline-size: 35px;
+  }
+  
+  
+ #input-line, #prompt{
 
   font-size: 7pt;
 }
@@ -455,7 +462,14 @@ there.
 
 @media (min-width: 360px) {
 
-  #output, #input-line, #prompt{
+    #output{
+    
+    font-size:5.8pt;
+    inline-size: 35px;
+  }
+  
+  
+  #input-line, #prompt{
   
     font-size: 5.8pt;
   }
@@ -465,7 +479,14 @@ there.
 /* Larger than mobile */
 @media (min-width: 400px) {
 
-#output, #input-line, #prompt{
+  #output{
+    
+    font-size:7.4pt;
+    inline-size: 35px;
+  }
+  
+  
+ #input-line, #prompt{
 
   font-size: 7.4pt;
 
@@ -474,7 +495,14 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
-  #output, #input-line, #prompt{
+ 
+    #output{
+    
+    font-size:7.4pt;
+    inline-size: 35px;
+  }
+  
+  #input-line, #prompt{
 
     font-size: 7.4pt;
 
@@ -483,7 +511,13 @@ there.
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-    #output, #input-line, #prompt{
+    #output{
+    
+    font-size: 9.8pt;
+    inline-size: 35px;
+  }  
+  
+  #input-line, #prompt{
   
       font-size: 9.8pt;
   
