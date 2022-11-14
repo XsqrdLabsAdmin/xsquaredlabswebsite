@@ -476,6 +476,23 @@ there.
   
   }
 
+
+@media (min-width: 375px) {
+
+    #output{
+    
+    font-size:5.8pt;
+    inline-size: 35px;
+  }
+  
+  
+  #input-line, #prompt{
+  
+    font-size: 5.8pt;
+  }
+  
+  }
+
 /* Larger than mobile */
 @media (min-width: 400px) {
 
