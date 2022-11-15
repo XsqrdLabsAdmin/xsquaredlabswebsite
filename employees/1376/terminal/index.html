@@ -10583,11 +10583,11 @@
 
 <html>
     <head>
-	 <!---IF YOU ARE READING THIS: Dl hyl vul zalw jsvzly av hkchujltlua... Nla ylhkf!-->
         <!--CALLING CSS FILES -->
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/custom.css">
+        <!--Custom css is your stying that I moved into a file-->
        
        <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0T1FHCXT2Y"></script>
@@ -10602,12 +10602,13 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Xsquared Labs">
+        <meta name="keywords" content="Short Cirkuitz">
+        <meta name="keywords" content="Midtempo, Industrial, EDM, Electronic Dance Music, EBM, Electronic Bass Music">
         <meta name="keywords" content="Cyberpunk">
         <meta name="keywords" content="Sci-fi">
-        <meta name="description" content="View intel, targets, and log entries here.">
-        <title>Xsquared Labs: Internal Terminal</title>
-        <link rel="icon" href="https://xsquaredlabs.com/images/xsqrdlogo.png" type="image/x-icon" />
+        <meta name="description" content="Welcome to the Short Cirkuitz Universe. Prepare Yourself for What’s to Come.">
+        <title>Short Cirkuitz Official Website: A product of Xsquared Labs | ACCESS GRANTED</title>
+        <link rel="icon" href="https://shortcirkuitzmusic.com/favicon.png" type="image/x-icon" />
         <script src="polyfills.js"></script>
         
         
@@ -10668,19 +10669,12 @@
             help_help: "Print this menu.",
             clear_help: "Clear the terminal screen.",
             reboot_help: "Reboot the system.",
-            cd_help: "Change the current working directory.",
-            mv_help: "Move (rename) files.",
-            rm_help: "Remove files or directories.",
-            rmdir_help: "Remove directory, this command will only work if the folders are empty.",
-            touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
-            sudo_help: "Execute a command as the superuser.",
-            welcome: "IP Verified. WELCOME BACK AG-1376! \n \n \nSTATUS: EVOLUTION ERA ENGAGED \n \n \n------------------ \n \n",
+            welcome: "To skip text scrolling double click or tap anywhere. \n \nExecute 'help', 'ls', or use the nav panel to get started. \n \n------------------ \n \n",
             internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
             welcome_file_name: "welcome_message.txt",
             invalid_command_message: "<value>: command not found.",
             reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
             permission_denied_message: "Unable to '<value>', permission denied.",
-            sudo_message: "Unable to sudo using a web client.",
             usage: "Usage",
             file: "file",
             file_not_found: "File '<value>' not found.",
@@ -10715,11 +10709,10 @@
             }
         };
         Singleton.defaultOptions = {
-     	"user-intel": "Code Name: AG-1376 \n \nSkill(s): Tech, Movement, Blades \n \nClearance level: 3\n \n-----------",
+        "user-intel": "Code Name: AG-1376 \n \nSkill(s): Tech, Movement, Blades \n \nClearance level: 3\n \n-----------",
 	"targets": "Truthseeker Contract: COMPLETED  |  Outcome: Account Hijacked\n \n ----END-OF-LIST----",
    	 "xsqrd-log": "Employee log Entry 01 \n \nDate: 07/03/2022 (July 3rd, 2022) \n \n50726f746f747970652d4920616c6d6f737420636f6d706c657465 \n \n547261696e696e6720726567696d656e7420696e637265617365642062792061206d756c7469706c65206f66203130 \n \n4d61696e6e6672616d65206973207570646174656420616e642066756e6374696f6e696e6720617320706c616e6e65642c2063757272656e746c7920637261776c696e672074686520696e7465726e657420666f72206d6f726520776561706f6e73206b6e6f776c6564676520666f722075736520696e20746865206669656c64 \n \n50726f746f747970652d572d492077696c6c206265206172726976696e6720696e206120636f75706c65206461797320666f7220612066756c6c207363616c652074657374206f662069742773206361706162696c6974696573 \n \n5072657061726174696f6e7320666f7220746865207374656d20696d706c616e7420617265206265696e67206d6164652c206578636974656420746f2062652074686520666972737420746f2074657374206974 \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 02 \n \nDate: 11/02/2022 (November 2nd, 2022) \n \n4A75737420676F7420776F7264207468617420747261696E696E6720686173206265656E20636F6D706C6574656420616E642074686174206669656C642074657374732077696C6C20636F6D6D656E6365206F6E6365207468652070726F746F74797065206172726976657320617420746865207072652D64657465726D696E6564206C6F636174696F6E2E20576520617265206F6E65207374657020636C6F73657220746F20616476616E63656D656E7420616E6420587371756172656420616368696576696E6720746865697220676F616C7320746F20626574746572206F757220636976696C697A6174696F6E2E \n \n----------END OF ENTRY---------- \n \n"
-  
-        };
+       };
         return {
             getInstance: function (options) {
                 instance === void 0 && (instance = new Singleton(options));
@@ -10773,12 +10766,6 @@
             HELP: { value: "help", help: configs.getInstance().help_help },
             CLEAR: { value: "clear", help: configs.getInstance().clear_help },
             REBOOT: { value: "reboot", help: configs.getInstance().reboot_help },
-            CD: { value: "cd", help: configs.getInstance().cd_help },
-            MV: { value: "mv", help: configs.getInstance().mv_help },
-            RM: { value: "rm", help: configs.getInstance().rm_help },
-            RMDIR: { value: "rmdir", help: configs.getInstance().rmdir_help },
-            TOUCH: { value: "touch", help: configs.getInstance().touch_help },
-            SUDO: { value: "sudo", help: configs.getInstance().sudo_help }
         };
     
         var Terminal = function (prompt, cmdLine, output, sidenav, profilePic, user, host, root, outputTimer) {
@@ -10978,16 +10965,6 @@
                 case cmds.REBOOT.value:
                     this.reboot();
                     break;
-                case cmds.CD.value:
-                case cmds.MV.value:
-                case cmds.RMDIR.value:
-                case cmds.RM.value:
-                case cmds.TOUCH.value:
-                    this.permissionDenied(cmdComponents);
-                    break;
-                case cmds.SUDO.value:
-                    this.sudo();
-                    break;
                 default:
                     this.invalidCommand(cmdComponents);
                     break;
@@ -11013,10 +10990,6 @@
             }
             this.type(result.trim(), this.unlock.bind(this));
         };
-    
-        Terminal.prototype.sudo = function () {
-            this.type(configs.getInstance().sudo_message, this.unlock.bind(this));
-        }
     
         Terminal.prototype.whoami = function (cmdComponents) {
             var result = configs.getInstance().username + ": " + configs.getInstance().user + "\n" + configs.getInstance().hostname + ": " + configs.getInstance().host + "\n" + configs.getInstance().platform + ": " + navigator.platform + "\n" + configs.getInstance().accesible_cores + ": " + navigator.hardwareConcurrency + "\n" + configs.getInstance().language + ": " + navigator.language;
