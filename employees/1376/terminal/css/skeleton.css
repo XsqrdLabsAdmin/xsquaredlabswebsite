@@ -381,7 +381,7 @@ hr {
   border-top: 1px solid #E1E1E1; }
 
 #output{
-    font-size: 0.8vw;
+    font-size: 13pt;
     overflow-wrap: break-word;
     margin-left: 25px;
     padding: 5px;
@@ -389,7 +389,7 @@ hr {
 
 #input-line{
 
-  font-size: 0.8vw;
+  font-size: 13pt;
   inline-size: 199px;
   word-wrap: break-word;
   margin-left: 25px;
@@ -399,7 +399,7 @@ hr {
 
 #prompt{
 
-  font-size: 0.8vw;
+  font-size: 13pt;
   overflow-wrap: break-word;
   margin-left: 25px;
   padding: 5px;
