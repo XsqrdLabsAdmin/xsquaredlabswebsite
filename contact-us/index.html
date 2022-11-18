@@ -22,5 +22,37 @@
 <body>
 <div class="container">
         <h3>To contact us you may either E-mail <a href= mailto:support@xsquaredlabs.com>Support</a> or <a href="tel:4707952274">Call Us</a> and say 'support' when prompted</h3>
+    
+    <script type="text/javascript">
+<! --------- YOU CAN ADD A MESSAGE BELOW IF YOU WANT---------> 
+    var message="";
+
+    function clickIE4(){
+        if (event.button==2){
+            alert(message);
+            return false;
+        }
+    }
+
+    function clickNS4(e){
+        if (document.layers||document.getElementById&&!document.all){
+            if (e.which==2||e.which==3){
+                alert(message);
+                return false;
+            }
+        }
+    }
+
+    if (document.layers){
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown=clickNS4;
+    }
+    else if (document.all&&!document.getElementById){
+        document.onmousedown=clickIE4;
+    }
+
+    document.oncontextmenu=new Function("return false")
+</script>
+    
     </body>
 </html>
