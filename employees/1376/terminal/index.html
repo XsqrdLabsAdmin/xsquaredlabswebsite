@@ -10610,23 +10610,7 @@
         <title>Short Cirkuitz Official Website: A product of Xsquared Labs | ACCESS GRANTED</title>
         <link rel="icon" href="https://shortcirkuitzmusic.com/favicon.png" type="image/x-icon" />
         <script src="polyfills.js"></script>
-        
-        
-       
-       <SCRIPT language=JavaScript>
-                                     
-       var message = "This action is disabled";
-            
-            function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-            
-            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-            
-            document.onmousedown = rtclickcheck;
-            
-            </SCRIPT>
-       
-
-       <meta name="generator" content="Xsquared Labs Dev Dept, xsquaredlabs.com">
+        <meta name="generator" content="Xsquared Labs Dev Dept, xsquaredlabs.com">
         <meta property="og:title" content="Xsquared Labs: Internal Ghost Operations Terminal">
         <meta property="og:description" content="View intel, targets, and log entries here.">
         <meta property="og:image" content="https://xsquaredlabs.com/images/xsqrdlogo.png">
@@ -11126,7 +11110,40 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>  
+	    
+	    
+	    <script type="text/javascript">
+<! --------- YOU CAN ADD A MESSAGE BELOW IF YOU WANT---------> 
+    var message="";
+
+    function clickIE4(){
+        if (event.button==2){
+            alert(message);
+            return false;
+        }
+    }
+
+    function clickNS4(e){
+        if (document.layers||document.getElementById&&!document.all){
+            if (e.which==2||e.which==3){
+                alert(message);
+                return false;
+            }
+        }
+    }
+
+    if (document.layers){
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown=clickNS4;
+    }
+    else if (document.all&&!document.getElementById){
+        document.onmousedown=clickIE4;
+    }
+
+    document.oncontextmenu=new Function("return false")
+</script>
+	    
     </body>
 </html>
     
