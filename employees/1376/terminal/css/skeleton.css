@@ -381,7 +381,7 @@ hr {
   border-top: 1px solid #E1E1E1; }
 
 #output{
-    font-size: 13pt;
+    font-size: 0.8vw;
     overflow-wrap: break-word;
     margin-left: 25px;
     padding: 5px;
@@ -389,7 +389,7 @@ hr {
 
 #input-line{
 
-  font-size: 13pt;
+  font-size: 0.8vw;
   inline-size: 199px;
   word-wrap: break-word;
   margin-left: 25px;
@@ -399,7 +399,7 @@ hr {
 
 #prompt{
 
-  font-size: 13pt;
+  font-size: 0.8vw;
   overflow-wrap: break-word;
   margin-left: 25px;
   padding: 5px;
@@ -429,23 +429,50 @@ there.
 
 
 @media (min-width: 280px) {
+  
+  body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
+}
 
   #output{
     clear: both;
     width: 100%;
-    inline-size: 35px;
-    font-size:4.8pt;
+    inline-size: 30px;
+    font-size:5.8pt;
   }
   
   #input-line, #prompt{
   
-    font-size: 4.8pt;
+    font-size: 5.8pt;
   }
   
   }
 
 
 @media (min-width: 300px) {
+  
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
 
   #output{
     clear: both;
@@ -463,6 +490,19 @@ there.
 }
 
 @media (min-width: 360px) {
+  
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
 
     #output{
     clear: both;
@@ -482,10 +522,23 @@ there.
 
 @media (min-width: 375px) {
 
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
+  
     #output{
         clear: both;
     width: 100%;
-    inline-size: 35px;
+    inline-size: 25px;
     font-size:5.8pt;
   }
   
@@ -499,6 +552,19 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
+  
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
 
   #output{
         clear: both;
@@ -516,6 +582,20 @@ there.
 }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  
+  
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
 
  
     #output{
@@ -533,6 +613,19 @@ there.
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
+  
+   body{
+    
+      background-image: url("https://shortcirkuitzmusic.com/06-min(2).png");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+       background-color: black;
+  }
 
     #output{
     
