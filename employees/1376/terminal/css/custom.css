@@ -59,7 +59,7 @@
     #output {
         clear: both;
         width: 100%;
-        inline-size: 4000px;
+        inline-size: 500px;
     }
     #prompt {
         white-space: nowrap;
