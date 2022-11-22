@@ -10968,7 +10968,7 @@
         };
     
         Terminal.prototype.ls = function () {
-            var result = "\n \nType 'cat' and then type one of the below commands to execute the command\n \n" + "\n";
+            var result = "\n \nType 'cat' and then type one of the file names below to open the file\n \n" + "\n";
             for (var file in files.getInstance()) {
                 result += file + "\n";
             }
