@@ -54,11 +54,12 @@
         font: inherit;
         border: none;
         color: inherit;
-        inline-size: 150px;
+        inline-size: 350px;
     }
     #output {
         clear: both;
         width: 100%;
+        inline-size: 850px;
     }
     #prompt {
         white-space: nowrap;
