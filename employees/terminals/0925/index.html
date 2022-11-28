@@ -12263,27 +12263,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xsquared Labs: Internal Terminal</title>
+    <title>Xsquared Labs: Internal Handler Operations Terminal</title>
     <link rel="icon" href="https://xsquaredlabs.com/images/xsqrdlogo.png" type="image/x-icon" />
-    <link href="main.css" rel="stylesheet" type="text/css" />
      <link href="custom.css" rel="stylesheet" type="text/css" />
       <link href="normalize.css" rel="stylesheet" type="text/css" />
 	 <link href="skeleton.css" rel="stylesheet" type="text/css" />
     <script src="./polyfills.js"></script>
     <script src="decoy.js"></script>
-	<SCRIPT language=JavaScript>
-        
-        var message = "This action is disabled";
-        
-        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-        
-        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-        
-        document.onmousedown = rtclickcheck;
-        
-        </SCRIPT>
     <meta name="generator" content="Xsquared Labs Dev Dept, xsquaredlabs.com">
-    <meta property="og:title" content="Xsquared Labs: Internal Handler Terminal">
+    <meta property="og:title" content="Xsquared Labs: Internal Handler Operations Terminal">
     <meta property="og:description" content="View intel, records, and journal entries here.">
     <meta property="og:image" content="https://xsquaredlabs.com/images/xsqrdlogo.png">
     <meta property="og:url" content="https://xsquaredlabs.com">
@@ -12297,127 +12285,6 @@
    	color: black;
 	background: red;
 }
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-body {
-    font-size: 13pt;
-     font-family: courier;
-    color: white;
-	background-image: none;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-    bottom: 0px;
-    right: 0px;
-    width: 100%;
-    height: 100%;
-	background-color: black;
-}
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url(photos/2452.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-#container {
-    padding: .1em 1.5em 1em 1em;
-    margin-left: 50px;
-    margin-right: 135px;
-}
-#cmdline {
-    outline: none;
-    background-color: transparent;
-    margin: 0;
-    width: 100%;
-    font: inherit;
-    border: none;
-    color: white;
-}
-#output {
-    clear: both;
-    width: 100%;
-}
-#prompt {
-    white-space: nowrap;
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-orient: vertical;
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-orient: vertical;
-    display: box;
-    box-pack: center;
-    box-orient: vertical;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-.prompt-color {
-    color: #32CD32;
-}
-.input-line {
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
-    -webkit-box-align: stretch;
-    display: -moz-box;
-    -moz-box-orient: horizontal;
-    -moz-box-align: stretch;
-    display: box;
-    box-orient: horizontal;
-    box-align: stretch;
-    clear: both;
-}
-.input-line > div:nth-child(2) {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-}
-
-/* SIDE NAV */
-
-#sidenav {
-    display:none;
-}
-
-@media(max-width:1000px) {
-#backgroundmobile{
-			height:auto;
-			width: 100%;
-			top:0;
-		}
-
-		#backgroundcrop{
-			background-color: var(--darkgray);
-		}
-
-		#mobilecontainer{
-			display: all;
-			background-color: var(--darkgray);
-		}
-}
-@media screen and (max-height: 450px) {
-    body {
-        font-size: 11pt;
-    }
-    #sidenav {
-       padding-top: 15px;
-   }
-    #sidenav a {
-       font-size: 13px;
-   }
-}
-
 
 </style>
 	</head>
@@ -12504,7 +12371,7 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-	"user-intel": "Code Name: AH-0925 \n \nClearance level: 4\n \n-----------",
+	"user-intel": "Code Name: AH-0925 \n \nClearance level: Rank 3\n \n-----------",
 	"records": "https://xsquaredlabs.com/records/ghost-program-records.zip",
    	"xsqrd-log": "Employee log Entry 01 \n \nDate: 04/18/2020 (April 18th, 2020) \n \n54686572652773206265656E20736F6D652074616C6B2061726F756E642074686520666163696C697479207468617420776520617265206265696E6720746F6C642062792074686520444F4420746F2072656C6F6361746520626563617573652069742069732067657474696E67206861726420666F72207468656D20746F20636F76657220666F7220757320686572652E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 02 \n \nDate: 09/15/2020 (September 15th, 2020) \n \n576520686176652066696E616C6C792072656C6F63617465642E2057652077696C6C206265207374617274696E67206F76657220696E2041746C616E74612047656F726769612064756520746F20697427732064656E736520706F70756C6174696F6E2E2057652077696C6C20616C736F20626520617474656D7074696E6720746F20657870616E64206E6174696F6E616C6C792C2077656C6C2C207468617427732077686174204920686176652068656172642E20526563727569746D656E742070726F636573732077696C6C20626567696E20736F6F6E2E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 03 \n \nDate: 01/28/2021 (January 28th, 2021) \n \n547269616C7320746F2066696E64206E6577207375626A656374732068617665206A75737420626567756E212041206665772072656372756974732061726520616C726561647920626567696E6E696E6720746F207374616E64206F75742C20313337362073686F777320746865206D6F73742070726F6D6973652074686F7567682E204865207265616C6C792077616E747320746865206A6F62206275742063616E20736F6D6574696D65732062652061206C6974746C6520616767726573736976652077686963682069732077686174207765206E6565642C206C65742773206A75737420686F7065207468617420686520646F65736E2774206265636F6D6520612070726F626C656D2E20576520646F206E6F742077616E74206120726570656174206F66206C6173742074696D652E \n \n----------END OF ENTRY---------- \n \n"
     };
