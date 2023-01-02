@@ -35,9 +35,9 @@
 {
    position: absolute;
    bottom: 30px;
-   left: 565px;
+   left: 553px;
    text-align: center;
-   -webkit-animation: toggle 29.5s ease-in alternate;
+   /*-webkit-animation: toggle 30.5s ease-in alternate;*/
 }
 
   
@@ -65,7 +65,6 @@ to {
     width: 150px;
     height: 35px;
     padding: 0 85px;
-    margin-right: -50px;
     background: transparent;
     border: 2px solid #ffff;
     color: white;
@@ -75,7 +74,7 @@ to {
     display: inline-block;
     font-size: 14px;
     font-family: "M PLUS 1p", "Open Sans", sans-serif;
-    -webkit-animation: toggle 29.5s ease-in alternate;
+    -webkit-animation: toggle 31.9s ease-in alternate;
   }
 
   .button:hover
