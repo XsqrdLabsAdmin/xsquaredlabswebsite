@@ -81,7 +81,7 @@
 
 body{
     
-    background-color: rgba(60, 60, 60);
+ background-image: radial-gradient(rgba($blue, 0.2), $black 120%);
 }
 
 .container{
