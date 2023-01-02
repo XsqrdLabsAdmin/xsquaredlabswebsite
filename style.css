@@ -12,7 +12,7 @@
   }
   
   body {
-    height: 250vh;
+    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
