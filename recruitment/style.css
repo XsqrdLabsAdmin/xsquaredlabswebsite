@@ -80,8 +80,8 @@
 }
 
 body{
-    
- background-image: radial-gradient(rgba($blue, 0.2), $black 120%);
+        background-color: #020202;
+        background-image: radial-gradient(rgba(18, 18, 18, 0.2), #161616 120%);
 }
 
 .container{
