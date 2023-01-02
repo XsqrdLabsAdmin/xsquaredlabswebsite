@@ -718,10 +718,24 @@ to {
   @media only screen and (min-width: 375px)
 {
 
-    body{
-
-       top: 50px;
-        
-    }
+    body {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #020202;
+        background-image: radial-gradient(rgba(18, 18, 18, 0.2), #161616 120%);
+      }
+      body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(0deg, rgba(29, 30, 34, 0.5), rgba(33, 33, 33, 0.5) 1px, transparent 1px, transparent 2px);
+        pointer-events: none;
+      }
 
   }
