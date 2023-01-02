@@ -6,9 +6,9 @@ const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, logString
     await wait(1000);
     await Writer.write("We are Xsquared Labs.");
     await wait(1200);
-    await Writer.write("We are the beginning of something new.");
+    await Writer.write("We are the dawn of a new beginning.");
     await wait(2000);
-    await Writer.write("We will advance society with your help.");
+    await Writer.write("We can advance society, all we need is your help.");
     await wait(1000);
     await Writer.write("Join Us?");
     input.removeAttribute("disabled");
