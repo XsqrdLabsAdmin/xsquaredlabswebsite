@@ -74,7 +74,7 @@ to {
     display: inline-block;
     font-size: 14px;
     font-family: "M PLUS 1p", "Open Sans", sans-serif;
-    -webkit-animation: toggle 31.9s ease-in alternate;
+    -webkit-animation: toggle 33.9s ease-in alternate;
   }
 
   .button:hover
