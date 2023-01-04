@@ -9,7 +9,7 @@ import GlitchedWriter, {
   
   (async  ()=> {
     await wait(1000);
-    await Writer.write("Welcome to Xsquared Labs.");
+    await Writer.write("Now redirecting you to the portal...");
     input.removeAttribute("disabled");
 })();
   
@@ -23,4 +23,3 @@ import GlitchedWriter, {
       Writer.write(input.value)
     , 500)
   );
-  
