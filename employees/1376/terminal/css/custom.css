@@ -3,6 +3,12 @@
     ::-webkit-scrollbar{
        display:none;
        }
+
+body {
+    
+    background-color: black;
+}
+
        
     ::selection {
         background: #FF383F;
