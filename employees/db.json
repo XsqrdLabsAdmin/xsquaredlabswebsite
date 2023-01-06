@@ -6,7 +6,7 @@
       "name": "Stephanie Schwartz",
       "role": "Community  Relations and Recruitment Manager (CRM)",
       "contact": "stephanie.s@xsquaredlabs.com",
-      "Status": "Active",
+      "Status": "https://xsquaredlabs.com/employees/8025",
       "image": "https://xsquaredlabs.com/employees/employee-photos/stephanie-s.jfif"
     },
      {
@@ -15,7 +15,7 @@
       "name": "Jeremy Zahorsky",
       "role": "Lead Programmer",
       "contact": "jeremy.z@xsquaredlabs.com",
-      "Status": "Active",
+      "Status": "https://xsquaredlabs.com/employees/7815",
       "image": "https://xsquaredlabs.com/employees/employee-photos/jeremy-z.jfif"
     },
     
@@ -25,7 +25,7 @@
       "name": "Randal Holland",
       "role": "Lead Fabricator",
       "contact": "randal.h@xsquaredlabs.com",
-      "Status": "Active",
+      "Status": "https://xsquaredlabs.com/employees/1113",
       "image": "https://xsquaredlabs.com/employees/employee-photos/randal-h.jfif"
     },
     
@@ -35,7 +35,7 @@
       "name": "Dave Newman",
       "role": "Lead Designer",
       "contact": "dave.n@xsquaredlabs.com",
-      "Status": "Active",
+      "Status": "https://xsquaredlabs.com/employees/2689",
       "image": "https://xsquaredlabs.com/employees/employee-photos/dave-n.jfif"
     },
     
@@ -45,16 +45,16 @@
       "name": "Short Cirkuitz",
       "role": "Lead Prototype-Tester, East Coast Region",
       "contact": "shortcirkuitz@xsquaredlabs.com",
-      "Status": "Active",
+      "Status": "https://xsquaredlabs.com/employees/1376",
       "image": "https://xsquaredlabs.com/employees/employee-photos/short-cirkuitz.jfif"
     },
     {
-      "id": "brent-d"
+      "id": "brent-d",
       "number": "0925"
       "name": "Brenton Derby"
       "role": "Lead Handler"
       "contact": "brenton.d@xsquaredlabs.com"
-      "status": "Active"
+      "status": "https://xsquaredlabs.com/employees/0925"
       "image": "Not available in order to protect this particular member of staff"
     }
   ]
