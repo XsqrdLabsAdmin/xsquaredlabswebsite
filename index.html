@@ -30,12 +30,18 @@ background-color: rgb(1, 1, 1);
   }
 
   button {
-    background-color: #231f1f;
+    background-color: rgb(25, 25, 25);
     border: none;
     color: white;
     padding: 15px 32px;
     /* display: block; */
     width: 120px;
+    border-radius: 12px;
+  }
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
 
   a:visited {
@@ -56,6 +62,10 @@ color: rgb(210, 53, 53);
   <button onclick="window.location.href='https://xsquaredlabs.com/allegroconbrio/rank0/portal/'">RANK 0</button>
   <p></p>
   <button onclick="window.location.href='https://xsquaredlabs.com/allegroconbrio/rank1/portal/'">RANK 01</button>
+  <p></p>
+  <button disabled class="disabled" onclick="window.location.href='https://xsquaredlabs.com/allegroconbrio/rank2/portal/'">RANK 02</button>
+  <p></p>
+  <button disabled class="disabled" onclick="window.location.href='https://xsquaredlabs.com/allegroconbrio/rank3/portal/'">RANK 03</button>
   <!---<p><b><a href="https://xsquaredlabs.com/allegroconbrio/rank2/portal/" target="_blank">[RANK 02] </a></b></p>--->
   <!---<p><b><a href="https://xsquaredlabs.com/allegroconbrio/rank3/portal/" target="_blank">[RANK 03] </a></b></p>--->
     </header>
