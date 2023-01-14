@@ -330,7 +330,7 @@ import GlitchedWriter, { wait } from "https://cdn.skypack.dev/glitched-writer@2.
 const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, logString);
 (async () => {
     await wait(1000);
-    await Writer.write("To cast your vote email: judge@xsquaredlabs.com");
+    await Writer.write("To appeal please e-mail: exterminated@xsquaredlabs.com");
     await wait(1000);
     await Writer.write("Good Bye!");
     input.removeAttribute("disabled");
