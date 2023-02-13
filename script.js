@@ -4,7 +4,7 @@ import GlitchedWriter, { wait } from "https://cdn.skypack.dev/glitched-writer@2.
 const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, logString);
 (async () => {
     await wait(1000);
-    await Writer.write("We are Xsquared Labs.");
+    await Writer.write("We are xSquared Labs.");
     await wait(1200);
     await Writer.write("We are the dawn of a new beginning.");
     await wait(2000);
