@@ -1,3 +1,83 @@
+<!---Property of CIRKUITBREAKER ENTERTAINMENT GROUP LLC. (Including but not limited to: "Short Cirkuitz", "xSquared Labs" and "CIRKUITBREAKER"'s name, logos, images, and any fictitious information found within this website.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10584,10 +10664,10 @@
 <html>
     <head>
         <!--CALLING CSS FILES -->
-        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/terminals/css/skeleton.css">
-        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/terminals/css/normalize.css">
-        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/terminals/css/custom.css">
-        <!--Custom css is your stying that I moved into a file-->
+        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/1376/terminal/css/skeleton.css">
+        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/1376/terminal/css/normalize.css">
+        <link rel="stylesheet" href="https://xsquaredlabs.com/employees/1376/terminal/css/custom.css">
+        <!--END CSS CALLING-->
        
        <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0T1FHCXT2Y"></script>
@@ -10605,12 +10685,12 @@
         <meta name="keywords" content="Cyberpunk">
         <meta name="keywords" content="Sci-fi">
         <meta name="description" content="View all tasks and logs here.">
-        <title>XSQUARED LABS | IHOT</title>
+        <title>xSquared Labs | IHOT</title>
         <link rel="icon" href="https://xsquaredlabs.com/images/xsqrdlogo.png" type="image/x-icon" />
         <script src="polyfills.js"></script>
         <meta name="generator" content="Xsquared Labs Dev Dept, xsquaredlabs.com">
         <meta property="og:title" content="Xsquared Labs: Internal Ghost Operations Terminal">
-        <meta property="og:description" content="View intel, ghosts, and log entries here.">
+        <meta property="og:description" content="View intel, targets, and log entries here.">
         <meta property="og:image" content="https://xsquaredlabs.com/images/xsqrdlogo.png">
         <meta property="og:url" content="https://xsquaredlabs.com">
         
@@ -10643,19 +10723,21 @@
         
        
        Singleton.defaultOptions = {
-            general_help: "Below you will find a list of commands that you can use.\nYou can use autofill by pressing the TAB key, autocompleting if there's only 1 possibility, or showing you a list of possibilities.",
-            ls_help: "List information about the files and folders (the current directory by default).",
-            cat_help: "Read FILE(s) content and print it to the standard output (screen).",
-            whoami_help: "Print the user name associated with the current effective user ID and more info.",
+            general_help: "Below you will find a list of commands that you can use.\nYou can use autofill by pressing the TAB key.",
+            ls_help: "CORRUPTED",
+            cat_help: "CORRUPTED",
+            whoami_help: "Print the details of current user.",
             date_help: "Print the system date and time.",
             help_help: "Print this menu.",
             clear_help: "Clear the terminal screen.",
             reboot_help: "Reboot the system.",
+            intel_help: "Displays current user's employee intel.",
+            log_help: "Opens all log entries.",
             welcome: "Welcome to IGOT (Internal Ghost Operations Termainal) \n \nAs a safety precaution the terminal auto logs out on every refresh and any/all data gets deleted.",
             internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
             welcome_file_name: "welcome_message.txt",
             invalid_command_message: "<value>: command not found.",
-            reboot_message: "https://shortcirkuitzmusic.com/internal",
+            reboot_message: "",
             permission_denied_message: "Unable to '<value>', permission denied.",
             usage: "Usage",
             file: "file",
@@ -10667,9 +10749,9 @@
             language: "Language",
             value_token: "<value>",
             host: "xsquaredlabs",
-            user: "derby",
+            user: "deleted",
             is_root: false,
-            type_delay: 0.000001
+            type_delay: 0.00000001
         };
         return {
             getInstance: function (options) {
@@ -10690,11 +10772,11 @@
                 this[key] = options[key] || Singleton.defaultOptions[key];
             }
         };
-         Singleton.defaultOptions = {
-	"user-intel": "Code Name: AH-0925 \n \nClearance level: 4\n \n-----------",
-	"records": "https://xsquaredlabs.com/records/ghost-program-records.zip",
-   	"xsqrd-log": "Employee log Entry 01 \n \nDate: 04/18/2020 (April 18th, 2020) \n \n54686572652773206265656E20736F6D652074616C6B2061726F756E642074686520666163696C697479207468617420776520617265206265696E6720746F6C642062792074686520444F4420746F2072656C6F6361746520626563617573652069742069732067657474696E67206861726420666F72207468656D20746F20636F76657220666F7220757320686572652E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 02 \n \nDate: 09/15/2020 (September 15th, 2020) \n \n576520686176652066696E616C6C792072656C6F63617465642E2057652077696C6C206265207374617274696E67206F76657220696E2041746C616E74612047656F726769612064756520746F20697427732064656E736520706F70756C6174696F6E2E2057652077696C6C20616C736F20626520617474656D7074696E6720746F20657870616E64206E6174696F6E616C6C792C2077656C6C2C207468617427732077686174204920686176652068656172642E20526563727569746D656E742070726F636573732077696C6C20626567696E20736F6F6E2E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 03 \n \nDate: 01/28/2021 (January 28th, 2021) \n \n547269616C7320746F2066696E64206E6577207375626A656374732068617665206A75737420626567756E212041206665772072656372756974732061726520616C726561647920626567696E6E696E6720746F207374616E64206F75742C20313337362073686F777320746865206D6F73742070726F6D6973652074686F7567682E204865207265616C6C792077616E747320746865206A6F62206275742063616E20736F6D6574696D65732062652061206C6974746C6520616767726573736976652077686963682069732077686174207765206E6565642C206C65742773206A75737420686F7065207468617420686520646F65736E2774206265636F6D6520612070726F626C656D2E20576520646F206E6F742077616E74206120726570656174206F66206C6173742074696D652E \n \n----------END OF ENTRY---------- \n \n"
-    };
+        Singleton.defaultOptions = {
+            "user-intel": "Code Name: AG-1376 \n \nSkill(s): Tech, Movement, Blades \n \nClearance level: 3\n \n-----------",
+	        
+   	    "xsqrd-log": "Employee log Entry 01 \n \nDate: 07/03/2022 (July 3rd, 2022) \n \n50726f746f747970652d4920616c6d6f737420636f6d706c657465 \n \n547261696e696e6720726567696d656e7420696e637265617365642062792061206d756c7469706c65206f66203130 \n \n4d61696e6e6672616d65206973207570646174656420616e642066756e6374696f6e696e6720617320706c616e6e65642c2063757272656e746c7920637261776c696e672074686520696e7465726e657420666f72206d6f726520776561706f6e73206b6e6f776c6564676520666f722075736520696e20746865206669656c64 \n \n50726f746f747970652d572d492077696c6c206265206172726976696e6720696e206120636f75706c65206461797320666f7220612066756c6c207363616c652074657374206f662069742773206361706162696c6974696573 \n \n5072657061726174696f6e7320666f7220746865207374656d20696d706c616e7420617265206265696e67206d6164652c206578636974656420746f2062652074686520666972737420746f2074657374206974 \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 02 \n \nDate: 11/02/2022 (November 2nd, 2022) \n \n4A75737420676F7420776F7264207468617420747261696E696E6720686173206265656E20636F6D706C6574656420616E642074686174206669656C642074657374732077696C6C20636F6D6D656E6365206F6E6365207468652070726F746F74797065206172726976657320617420746865207072652D64657465726D696E6564206C6F636174696F6E2E20576520617265206F6E65207374657020636C6F73657220746F20616476616E63656D656E7420616E6420587371756172656420616368696576696E6720746865697220676F616C7320746F20626574746572206F757220636976696C697A6174696F6E2E \n \n----------END OF ENTRY---------- \n \n3331333133313230333033343330323033313334333432303331333533373230333133353336323033303334333732303331333633343230333033343330323033313335333332303331333533363230333133353337323033313336333732303330333433303230333133363337323033313335333032303331333433313230333133363334323033303334333032303331333533313230333133363333323033303334333032303331333533343230333133343335323033313334333632303331333633343230333033343330323033313335333032303331333433353230333133363332323033313334333532303330333433303230333133343336323033313335333732303331333633323230333033343330323033313335333532303331333433353230333033353336323033303334333032303331333233343230333133353330323033313334333532303331333633333230333133343335323033303334333032303331333633303230333133353331323033313334333532303331333433333230333133343335323033313336333332303330333433303230333133353337323033313334333632303330333433303230333133363334323033313334333532303331333433333230333133353330323033313335333632303331333533373230333133353334323033313335333732303331333433373230333133373331323033303334333032303331333433313230333133353336323033313334333432303330333433303230333133363334323033313335333032303331333433353230333133353331323033313336333232303330333433303230333133343331323033313334333732303331333433353230333133353336323033313334333432303331333433313230333033343330323033313334333132303331333633323230333133343335323033303334333032303331333633333230333133363334323033313334333132303331333633323230333133363334323033313335333132303331333533363230333133343337323033303334333032303331333633343230333133353337323033303334333032303331333433343230333133343335323033313336333332303331333633343230333133363332323033313335333732303331333733313230333033353336323033303334333032303331333133313230333033343330323033313334333232303331333433353230333133353334323033313335333132303331333633363230333133343335323033303334333032303331333533313230333133363334323033303334333032303331333533313230333133363333323033303334333032303331333633343230333133353331323033313335333532303331333433353230333033343330323033313336333432303331333533373230333033343330323033313334333732303331333533373230333033353336 \n \n----------END OF ENTRY---------- \n \n"
+        };
         return {
             getInstance: function (options) {
                 instance === void 0 && (instance = new Singleton(options));
@@ -10742,15 +10824,17 @@
     
         var cmds = {
             LS: { value: "ls", help: configs.getInstance().ls_help },
-            CAT: { value: "cat", help: configs.getInstance().cat_help },
+            CAT: { value: "side-nav=", help: configs.getInstance().cat_help },
             WHOAMI: { value: "whoami", help: configs.getInstance().whoami_help },
             DATE: { value: "date", help: configs.getInstance().date_help },
             HELP: { value: "help", help: configs.getInstance().help_help },
             CLEAR: { value: "clear", help: configs.getInstance().clear_help },
             REBOOT: { value: "reboot", help: configs.getInstance().reboot_help },
+            INTEL: { value: "user-intel", help: configs.getInstance().intel_help },
+            LOG: { value: "xsqrd-log", help: configs.getInstance().log_help },
         };
     
-        var Terminal = function (prompt, cmdLine, output, sidenav, profilePic, user, host, root, outputTimer) {
+        var Terminal = function (prompt, cmdLine, output, sidenav, user, host, root, outputTimer) {
             if (!(prompt instanceof Node) || prompt.nodeName.toUpperCase() !== "DIV") {
                 throw new InvalidArgumentException("Invalid value " + prompt + " for argument 'prompt'.");
             }
@@ -10763,11 +10847,8 @@
             if (!(sidenav instanceof Node) || sidenav.nodeName.toUpperCase() !== "DIV") {
                 throw new InvalidArgumentException("Invalid value " + sidenav + " for argument 'sidenav'.");
             }
-            if (!(profilePic instanceof Node) || profilePic.nodeName.toUpperCase() !== "IMG") {
-                throw new InvalidArgumentException("Invalid value " + profilePic + " for argument 'profilePic'.");
-            }
+
             (typeof user === "string" && typeof host === "string") && (this.completePrompt = user + "@" + host + ":~" + (root ? "#" : "$"));
-            this.profilePic = profilePic;
             this.prompt = prompt;
             this.cmdLine = cmdLine;
             this.output = output;
@@ -10835,7 +10916,7 @@
                 Terminal.makeElementDisappear(element);
                 element.onclick = function (file, event) {
                     this.handleSidenav(event);
-                    this.cmdLine.value = "cat " + file + " ";
+                    this.cmdLine.value = "side-nav=" + " " + file + " ";
                     this.handleCmd();
                 }.bind(this, file);
                 element.appendChild(document.createTextNode(capFirst(file.replace(/\.[^/.]+$/, "").replace(/_/g, " "))));
@@ -10848,7 +10929,6 @@
     
         Terminal.prototype.handleSidenav = function (event) {
             if (this.sidenavOpen) {
-                this.profilePic.style.opacity = 0;
                 this.sidenavElements.forEach(Terminal.makeElementDisappear);
                 this.sidenav.style.width = "50px";
                 document.getElementById("sidenavBtn").innerHTML = "&#9776;";
@@ -10857,7 +10937,6 @@
                 this.sidenav.style.width = "300px";
                 this.sidenavElements.forEach(Terminal.makeElementAppear);
                 document.getElementById("sidenavBtn").innerHTML = "&times;";
-                this.profilePic.style.opacity = 1;
                 this.sidenavOpen = true;
             }
             document.getElementById("sidenavBtn").blur();
@@ -10893,11 +10972,11 @@
                         cmdComponents[1] = "";
                     }
                     if (configs.getInstance().welcome_file_name.startsWith(cmdComponents[1].toLowerCase())) {
-                        possibilities.push(cmds.CAT.value + " " + configs.getInstance().welcome_file_name);
+                        possibilities.push(cmds.CAT.value + configs.getInstance().welcome_file_name);
                     }
                     for (var file in files.getInstance()) {
                         if (file.startsWith(cmdComponents[1].toLowerCase())) {
-                            possibilities.push(cmds.CAT.value + " " + file);
+                            possibilities.push(cmds.CAT.value + file);
                         }
                     }
                 } else {
@@ -10947,6 +11026,12 @@
                 case cmds.REBOOT.value:
                     this.reboot();
                     break;
+                case cmds.INTEL.value:
+                    this.intel();
+                    break;    
+                case cmds.LOG.value:
+                    this.log();
+                    break;
                 default:
                     this.invalidCommand(cmdComponents);
                     break;
@@ -10966,9 +11051,9 @@
         };
     
         Terminal.prototype.ls = function () {
-            var result = "\n \nType 'cat' and then type one of the file names below to open the file\n \n" + "\n";
+            var result = "";
             for (var file in files.getInstance()) {
-                result += file + "\n";
+                result += "CORRUPTED" + "\n";
             }
             this.type(result.trim(), this.unlock.bind(this));
         };
@@ -11000,7 +11085,18 @@
         Terminal.prototype.reboot = function () {
             this.type(configs.getInstance().reboot_message, this.reset.bind(this));
         };
-    
+
+        Terminal.prototype.intel = function () {
+            var result = "Code Name: AH-0925 \n \nClearance level: 4\n \n-----------";
+            this.type(result.trim(), this.unlock.bind(this));
+        };
+
+        Terminal.prototype.log = function () {
+            var result = "Employee log Entry 01 \n \nDate: 04/18/2020 (April 18th, 2020) \n \n54686572652773206265656E20736F6D652074616C6B2061726F756E642074686520666163696C697479207468617420776520617265206265696E6720746F6C642062792074686520444F4420746F2072656C6F6361746520626563617573652069742069732067657474696E67206861726420666F72207468656D20746F20636F76657220666F7220757320686572652E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 02 \n \nDate: 09/15/2020 (September 15th, 2020) \n \n576520686176652066696E616C6C792072656C6F63617465642E2057652077696C6C206265207374617274696E67206F76657220696E2041746C616E74612047656F726769612064756520746F20697427732064656E736520706F70756C6174696F6E2E2057652077696C6C20616C736F20626520617474656D7074696E6720746F20657870616E64206E6174696F6E616C6C792C2077656C6C2C207468617427732077686174204920686176652068656172642E20526563727569746D656E742070726F636573732077696C6C20626567696E20736F6F6E2E \n \n----------END OF ENTRY---------- \n \nEmployee Log Entry 03 \n \nDate: 01/28/2021 (January 28th, 2021) \n \n547269616C7320746F2066696E64206E6577207375626A656374732068617665206A75737420626567756E212041206665772072656372756974732061726520616C726561647920626567696E6E696E6720746F207374616E64206F75742C20313337362073686F777320746865206D6F73742070726F6D6973652074686F7567682E204865207265616C6C792077616E747320746865206A6F62206275742063616E20736F6D6574696D65732062652061206C6974746C6520616767726573736976652077686963682069732077686174207765206E6565642C206C65742773206A75737420686F7065207468617420686520646F65736E2774206265636F6D6520612070726F626C656D2E20576520646F206E6F742077616E74206120726570656174206F66206C6173742074696D652E \n \n----------END OF ENTRY---------- \n \n";
+            this.type(result.trim(), this.unlock.bind(this));
+        };
+
+
         Terminal.prototype.reset = function () {
             this.output.textContent = "";
             this.prompt.textContent = "";
@@ -11076,7 +11172,6 @@
                     document.getElementById("cmdline"),
                     document.getElementById("output"),
                     document.getElementById("sidenav"),
-                    document.getElementById("profilePic"),
                     configs.getInstance().user,
                     configs.getInstance().host,
                     configs.getInstance().is_root,
@@ -11093,9 +11188,8 @@
     <body>
         <div id="sidenav">
             <button id="sidenavBtn">&#9776;</button>
-            <img id="profilePic" alt="" src="">
         </div>
-        <div id="container" style="">
+        <div id="container">
             <div class="row">
                 <div class="twelve columns">
                     <div id="output"></div>
@@ -11108,10 +11202,9 @@
                     </div>
                 </div>
             </div>
-        </div>  
-	    
-	    
-	    <script type="text/javascript">
+        </div> 
+        
+        <script type="text/javascript">
     var message="";
 
     function clickIE4(){
@@ -11140,8 +11233,7 @@
 
     document.oncontextmenu=new Function("return false")
 </script>
-	    
+        
     </body>
+
 </html>
-    
-  
