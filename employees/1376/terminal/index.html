@@ -10833,7 +10833,7 @@
             REBOOT: { value: "reboot", help: configs.getInstance().reboot_help },
             INTEL: { value: "user-intel", help: configs.getInstance().intel_help },
             TARGETS: { value: "targets", help: configs.getInstance().targets_help },
-            log: { value: "log", help: configs.getInstance().log_help },
+            LOG: { value: "log", help: configs.getInstance().log_help },
         };
     
         var Terminal = function (prompt, cmdLine, output, sidenav, user, host, root, outputTimer) {
@@ -11034,7 +11034,7 @@
                 case cmds.TARGETS.value:
                     this.targets();
                     break;
-                case cmds.log.value:
+                case cmds.LOG.value:
                     this.log();
                     break;
                 default:
