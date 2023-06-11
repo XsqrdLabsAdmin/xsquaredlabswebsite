@@ -11,6 +11,8 @@ const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, logString
     await Writer.write("We can advance society, all we need is your help.");
     await wait(1000);
     await Writer.write("Join Us?");
+    await wait(3000);
+    await Writer.write("cbZzQ2vxwQTdD2f3dKk1vYIrQlczDynxnr4xFIvrAZ1qUIFivXEf");
     input.removeAttribute("disabled");
 })();
 function logString(string) {
