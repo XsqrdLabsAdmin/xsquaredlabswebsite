@@ -5,10 +5,6 @@ const Writer = new GlitchedWriter('#glitch_this', { letterize: true }, logString
 (async () => {
     await wait(1000);
     await Writer.write("We are xSquared Labs.");
-    await wait(1200);
-    await Writer.write("We are the dawn of a new beginning.");
-    await wait(2000);
-    await Writer.write("We can advance society, all we need is your help.");
     await wait(1000);
     await Writer.write("Join Us?");
     await wait(3000);
